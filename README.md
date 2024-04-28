@@ -30,7 +30,7 @@ conda activate TPD
 
 ### Weights
 
-Download the pretrained [checkpoint](https://drive.google.com/file/d/1s3w0uUk8tcxDbpZnu0zpQqz0DYNSG6NJ/view?usp=sharing) and save it in the checkpoints folder like: 
+Download the pretrained [checkpoint](https://drive.google.com/file/d/1twsjZ0kQkyFdfLcw8EYmvQmsRIgqnI3o/view?usp=sharing) and save it in the checkpoints folder like: 
 
 ```
 checkpoints

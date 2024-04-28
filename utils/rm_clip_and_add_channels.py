@@ -1,5 +1,5 @@
 import torch
-pretrained_model_path='../checkpoints/release/VITONHD_240epochs_CLIP_removed_no_lora.ckpt'
+pretrained_model_path='../checkpoints/original/model.ckpt'
 ckpt_file=torch.load(pretrained_model_path,map_location='cpu')
 
 # add input conv mask channel
@@ -16,8 +16,6 @@ ckpt_file['state_dict']['model.diffusion_model.out.2.weight']=torch.cat((ckpt_fi
 new_output_bias=torch.zeros(1)
 ckpt_file['state_dict']['model.diffusion_model.out.2.bias']=torch.cat((ckpt_file['state_dict']['model.diffusion_model.out.2.bias'],new_output_bias),dim=0)
 
-print("Finished for the add channels and remove clip")
-
 
 state_dict = ckpt_file['state_dict']
 
@@ -30,5 +28,5 @@ for key, value in state_dict.items():
 ckpt_file['state_dict'] = new_state_dict
 
 
-torch.save(ckpt_file,"../checkpoints/release/TPD_240epochs.ckpt")
+torch.save(ckpt_file,"../checkpoints/original/model_prepared.ckpt")
 
