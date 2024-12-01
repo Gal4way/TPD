@@ -114,12 +114,12 @@ Thanks to [Paint-by-Example](https://github.com/Fantasy-Studio/Paint-by-Example)
 ## Citation
 
 ```
-@misc{yang2024texturepreserving,
-      title={Texture-Preserving Diffusion Models for High-Fidelity Virtual Try-On}, 
-      author={Xu Yang and Changxing Ding and Zhibin Hong and Junhao Huang and Jin Tao and Xiangmin Xu},
-      year={2024},
-      eprint={2404.01089},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Yang_2024_CVPR,
+    author    = {Yang, Xu and Ding, Changxing and Hong, Zhibin and Huang, Junhao and Tao, Jin and Xu, Xiangmin},
+    title     = {Texture-Preserving Diffusion Models for High-Fidelity Virtual Try-On},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {7017-7026}
 }
 ```
