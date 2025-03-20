@@ -109,7 +109,8 @@ Refer to  [calculate_metrics/calculate_metrics.sh](./calculate_metrics/calculate
 
 Thanks to [Paint-by-Example](https://github.com/Fantasy-Studio/Paint-by-Example), our code is heavily borrowed from it. 
 
-
+## Copyright Notice
+This open-source project is for non-commercial use only. Commercial use requires explicit authorization. For commercial licensing, contact: <chxding@scut.edu.cn>
 
 ## Citation
 
